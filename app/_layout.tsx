@@ -92,6 +92,7 @@ function RootLayoutNav() {
             options={{ title: "Medicine Reminders" }}
           />
           <Stack.Screen name="add" options={{ title: "Add Medication" }} />
+          <Stack.Screen name="edit/[id]" options={{ title: "Edit Medication" }} />
         </Stack>
       </StorageProvider>
     </ThemeProvider>
